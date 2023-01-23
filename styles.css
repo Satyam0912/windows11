@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    border: none;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.win-vid-wallpaper {
+    height: 100vh;
+    position: fixed;
+}
+
+.showStartMenu {
+    margin-bottom: 75px;
+    position: fixed;
+    animation-name: showStartMenu;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+}
+
+#startMenuImg {
+    height: 70vh;
+}
+
+.taskbar {
+    width: 100%;
+    background-image: linear-gradient(to right, #F5E2D2, #F5E2CE);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.taskbar .main-taskbar {
+    height: 70px;
+    width: 620px;
+}
+
+.taskbarDateTime {
+    height: 60px;
+    position: absolute;
+    right: 0;
+}
+
+@keyframes showStartMenu {
+    0% {
+        margin-bottom: -50vh;
+    }
+
+    100% {
+        margin-bottom: 75px;
+    }
+}
