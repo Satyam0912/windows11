@@ -44,12 +44,12 @@ body {
 }
 
 .taskbar .main-taskbar {
-    height: 70px;
+    height: 60px;
     width: 620px;
 }
 
 .taskbarDateTime {
-    height: 60px;
+    height: 55px;
     position: absolute;
     right: 0;
 }
